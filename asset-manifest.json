@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fe33506a.css",
+    "main.js": "/static/js/main.3771e2d7.js",
+    "static/media/joshuatree.jpg": "/static/media/joshuatree.eb8ddb3a72107356136a.jpg",
+    "static/media/sagepresent.png": "/static/media/sagepresent.67e65e35a1c1ec66715e.png",
+    "static/media/massature.png": "/static/media/massature.cb2890377beafa9488ab.png",
+    "static/media/lindsay-logo.png": "/static/media/lindsay-logo.7fd2d2e7f69128fb8b2d.png",
+    "static/media/headshot.jpg": "/static/media/headshot.e847408b03523e0198f7.jpg",
+    "static/media/uclax.png": "/static/media/uclax.08e2770b81d41f471a60.png",
+    "static/media/swipesmart.png": "/static/media/swipesmart.396c5d00cf439cce18a6.png",
+    "static/media/sci.png": "/static/media/sci.7ab1a85e4798a220159f.png",
+    "static/media/email.png": "/static/media/email.ac53f9a0f6f8afb24968.png",
+    "static/media/github.png": "/static/media/github.fcf4e69175f8776e898a.png",
+    "index.html": "/index.html",
+    "main.fe33506a.css.map": "/static/css/main.fe33506a.css.map",
+    "main.3771e2d7.js.map": "/static/js/main.3771e2d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe33506a.css",
+    "static/js/main.3771e2d7.js"
+  ]
+}
