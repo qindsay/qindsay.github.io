@@ -17,7 +17,7 @@ const Home = () => {
                     <h1 className="typed">Hi, I'm Lindsay!</h1>
                     <h2 className="fadein frame2">Welcome to my personal site.</h2>
                     <br></br>
-                    <p className="fadein frame2">Right now, I'm a 2nd-year student at <a href="https://www.ucla.edu/" target="_blank" rel="noopener noreferrer">UCLA</a> majoring in Computer Science and minoring in Public Affairs.</p>
+                    <p className="fadein frame2">Right now, I'm a 3rd-year student at <a href="https://www.ucla.edu/" target="_blank" rel="noopener noreferrer">UCLA</a> majoring in Computer Science and minoring in Public Affairs.</p>
                     <br></br>
                     <p className="fadein frame2">I'm also a</p>
                     <ul className="fadein frame2">

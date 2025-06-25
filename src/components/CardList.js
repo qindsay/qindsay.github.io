@@ -3,6 +3,7 @@ import "../styles.css";
 
 import Card from "./Card.js";
 
+import crumb from '../assets/crumb_getit.jpg';
 import sagespeech from '../assets/sagepresent.png';
 import sci_logo from '../assets/sci.png';
 import swipesmart_logo from '../assets/swipesmart.png';
@@ -11,6 +12,19 @@ import massature from '../assets/massature.png';
 
 const CardList = () => {
     const projects = [
+        {
+            link: "https://github.com/qindsay/crumb-getit",
+            title: "Crumb & Get It",
+            imageUrl: crumb,
+            imageAlt: "Crumb & Get It Logo",
+            description: (
+                <>
+                Project for LAHacks 2025. My team and I built a cooking app that uses a webcam to identify the ingredients a user has in their 
+                fridge and generates a recipe using those ingredients.
+                </>
+            ),
+            tools: "React, Node.js, Gemini"
+        },
         {
             link: "https://youtu.be/h7TSGzvew_c?si=mz9CpaHf_yLgddXk&t=2094",
             title: "SAGE-S Internship Talk",
@@ -33,10 +47,10 @@ const CardList = () => {
             description: (
                 <>
                 My work at the <a href="https://structures.computer/" target="_blank" rel="noopener noreferrer">
-                UCLA Structures-Computer Interaction</a> lab, where I help research inertial navigation swarming in minibots.
+                UCLA Structures-Computer Interaction</a> lab, where I work on trajectory prediction with minibots.
                 </>
             ),
-            tools: "C++, Python, Arduino, OpenCV, ArUco, BluePy, Bleak, pySerial",
+            tools: "pyTorch, C++, Python, Arduino, OpenCV, ArUco, BluePy, Bleak, pySerial",
         }, 
         {
             link: "https://github.com/itswwong/SwipeSmart",

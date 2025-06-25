@@ -33,7 +33,7 @@ const Contact = () => {
                 </div>
 
             </div>
-            <h3>&copy; Lindsay Qin 2024</h3>
+            <h3>&copy; Lindsay Qin 2025</h3>
         </>
     )
 }
