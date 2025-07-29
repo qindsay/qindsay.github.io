@@ -9,9 +9,25 @@ import sci_logo from '../assets/sci.png';
 import swipesmart_logo from '../assets/swipesmart.png';
 import uclax_logo from '../assets/uclax.png';
 import massature from '../assets/massature.png';
+import auto_enroll from '../assets/auto-enroll.png';
 
 const CardList = () => {
     const projects = [
+        {
+            link: "https://github.com/qindsay/crumb-getit",
+            title: "auto-enroll",
+            imageUrl: auto_enroll,
+            imageAlt: "Screenshot of auto-enroll program",
+            description: (
+                <>
+                UCLA enrollment tracker. Program that parses through UCLA class websites, determines 
+                status of the class (Open, Waitlist, or Closed), and notifies me when a class is 
+                available to enroll in. Use command line to add urls to track, and email I'm sending 
+                from/receiving from is located in .env file.
+                </>
+            ),
+            tools: "Python, BeautifulSoup, requests, smtplib"
+        },
         {
             link: "https://github.com/qindsay/crumb-getit",
             title: "Crumb & Get It",
