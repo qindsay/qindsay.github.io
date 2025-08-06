@@ -36,7 +36,7 @@ const NavBar = () => {
          <ul>
            <li><Link to='/about'>About</Link></li>
            <li><Link to='/work'>Work</Link></li>
-           <li><a href="https://drive.google.com/file/d/1iSkuZRFONrNKgepdRVYZt2BicSuyfVgD/view?usp=sharing" target="_blank" 
+           <li><a href="https://drive.google.com/file/d/1s0Yw7R1QYEtmgSdjPpDJAHg7JyZNpE2p/view?usp=sharing" target="_blank" 
                 rel="noopener noreferrer">Resume</a></li>
          </ul>
        </div>
