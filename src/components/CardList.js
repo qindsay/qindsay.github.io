@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles.css";
 
 import Card from "./Card.js";
@@ -14,7 +13,8 @@ import auto_enroll from '../assets/auto-enroll.png';
 const CardList = () => {
     const projects = [
         {
-            link: "https://github.com/qindsay/crumb-getit",
+            link: "https://github.com/qindsay/auto-enroll",
+            linkText: "GitHub",
             title: "auto-enroll",
             imageUrl: auto_enroll,
             imageAlt: "Screenshot of auto-enroll program",
@@ -30,12 +30,13 @@ const CardList = () => {
         },
         {
             link: "https://github.com/qindsay/crumb-getit",
+            linkText: "GitHub",
             title: "Crumb & Get It",
             imageUrl: crumb,
             imageAlt: "Crumb & Get It Logo",
             description: (
                 <>
-                Project for LAHacks 2025. My team and I built a cooking app that uses a webcam to identify the ingredients a user has in their 
+                Project for <a className="card-content" href="https://lahacks.com/" target="_blank" rel="noopener noreferrer">LAHacks 2025</a>. My team and I built a cooking app that uses a webcam to identify the ingredients a user has in their 
                 fridge and generates a recipe using those ingredients.
                 </>
             ),
@@ -43,26 +44,28 @@ const CardList = () => {
         },
         {
             link: "https://youtu.be/h7TSGzvew_c?si=mz9CpaHf_yLgddXk&t=2094",
+            linkText: "YouTube",
             title: "SAGE-S Internship Talk",
             imageUrl: sagespeech,
             imageAlt: "Screenshot of YouTube video where Lindsay gives a speech.",
             description: (
                 <>
-                I gave a talk to high school girls about my work and impact at <a href="https://www6.slac.stanford.edu/" target="_blank" 
+                I gave a talk to high school girls about my work and impact at <a className="card-content" href="https://www6.slac.stanford.edu/" target="_blank" 
                 rel="noopener noreferrer">SLAC National Accelerator Laboratory</a>, 
-                as well as the opportunities that I explored thanks to the <a href="https://mysagejourney.org/" 
+                as well as the opportunities that I explored thanks to the <a className="card-content" href="https://mysagejourney.org/" 
                 target="_blank" rel="noopener noreferrer">SAGE</a> (Science Accelerating Girls' Engagement in STEM) program. 
                 </>
             )
         },
         {
             link: "https://github.com/SidZal/SCI-Inertial-Navigation-Swarm",
+            linkText: "GitHub",
             title: "SCI",
             imageUrl: sci_logo,
             imageAlt: "SCI Logo: a blue robotic arm against a white background.",
             description: (
                 <>
-                My work at the <a href="https://structures.computer/" target="_blank" rel="noopener noreferrer">
+                My work at the <a className="card-content" href="https://structures.computer/" target="_blank" rel="noopener noreferrer">
                 UCLA Structures-Computer Interaction</a> lab, where I work on trajectory prediction with minibots.
                 </>
             ),
@@ -70,19 +73,21 @@ const CardList = () => {
         }, 
         {
             link: "https://github.com/itswwong/SwipeSmart",
+            linkText: "GitHub",
             title: "Swipe-Smart",
             imageUrl: swipesmart_logo,
             imageAlt: "Swipe Smart Logo: pastel cards coming out of a wallet.",
             description: (
                 <>
-                Development for Swipe-Smart (<a href="https://apps.apple.com/us/app/swipe-smart/id6680188654" target="_blank" 
-                rel="noopener noreferrer">now on the App Store!</a>), an app that allows users to track credit card rewards.
+                Development for Swipe-Smart (<a className="card-content" href="https://apps.apple.com/us/app/swipe-smart/id6680188654" target="_blank" 
+                rel="noopener noreferrer">now on the App Store!</a>), an iOS app that allows users to track credit card rewards.
                 </>
             ),
             tools: "Swift, SwiftUI, Xcode",
         },
         {
             link: "https://github.com/ps-innovator/35L-Project",
+            linkText: "GitHub",
             title: "UCLAX",
             imageUrl: uclax_logo,
             imageAlt: "UCLAX logo -- A plane flying around a blue circle.",
@@ -91,6 +96,7 @@ const CardList = () => {
         },
         {
             link: "https://github.com/Anthonyled/Project-Rudd",
+            linkText: "GitHub",
             title: "Massature",
             imageUrl: massature,
             imageAlt: "Image of gameplay from Massature. An icon attempts to climb up stairs that alternate between snails and coins.",
@@ -104,7 +110,7 @@ const CardList = () => {
     return (
         <div className="card-list">
             {projects.map((item, index) => (
-                <Card key={index} link={item.link} title={item.title} imageUrl={item.imageUrl} imageAlt={item.imageAlt} description={item.description} tools={item.tools}/>
+                <Card key={index} link={item.link} linkText={item.linkText} title={item.title} imageUrl={item.imageUrl} imageAlt={item.imageAlt} description={item.description} tools={item.tools}/>
             )) }
         </div>
     );

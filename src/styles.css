@@ -286,7 +286,7 @@ nav {
 
 .fadein { 
     opacity: 0;
-    animation: fadeIn 1s forwards; 
+    animation: fadeIn 0.5s forwards; 
 }
 
 @keyframes fadeIn {
@@ -298,7 +298,7 @@ nav {
     width: 0;
     overflow: hidden;
     white-space: nowrap;
-    animation: typing 3s forwards, blinking 1s infinite;
+    animation: typing 2s forwards, blinking 1s infinite;
     animation-timing-function: steps(20, end);
     border-right: 2px solid;
 }
@@ -479,17 +479,31 @@ nav {
     text-align: left;
 }
 
-.card h2:hover {
-    color: #a5ad99;
+.card .title-separator {
+    background-color: #DED9E2;
+    font-weight: 400;
+    color: #7D8570;
 }
 
-.card a {
+
+.card .card-title-link  {
+  font-weight: 400;
+  color: #533a7b;
+  background-color: #DED9E2;
+
+}
+
+.card .card-title-link:hover {
+    color: #9686b8;
+}
+
+.card .card-content {
     background-color: #DED9E2;
     color: #533a7b;
     font-weight: 500;
 }
 
-.card a:hover {
+.card .card-content:hover {
     color: #9686b8;
 }
 

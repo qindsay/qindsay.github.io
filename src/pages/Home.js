@@ -17,13 +17,13 @@ const Home = () => {
                     <h1 className="typed">Hi, I'm Lindsay!</h1>
                     <h2 className="fadein frame2">Welcome to my personal site.</h2>
                     <br></br>
-                    <p className="fadein frame2">Right now, I'm a 3rd-year student at <a href="https://www.ucla.edu/" target="_blank" rel="noopener noreferrer">UCLA</a> majoring in Computer Science and minoring in Public Affairs.
-                    This summer, I'm an SDE intern at Amazon.</p>
+                    <p className="fadein frame2">Right now, I'm a 3rd-year student at <a href="https://www.ucla.edu/" target="_blank" rel="noopener noreferrer">UCLA</a> majoring in Computer Science and minoring in Public Affairs.</p>
                     <br></br>
                     <p className="fadein frame2">I'm also a</p>
                     <ul className="fadein frame2">
-                        <li>previous intern at <a href="https://www6.slac.stanford.edu/" target="_blank" rel="noopener noreferrer">SLAC</a></li>
-                        <li>undergrad researcher at UCLA's <a href="https://structures.computer/" target="_blank" rel="noopener noreferrer">SCI Lab</a></li>
+                        <li>previous intern at <a href="https://www.aboutamazon.com/" target="_blank" rel="noopener noreferrer">Amazon</a> and 
+                        <a href="https://www6.slac.stanford.edu/" target="_blank" rel="noopener noreferrer"> SLAC</a></li>
+                        <li>DevOps Lead for <a href="https://apply.uclastudentmedia.com/" target="_blank" rel="noopener noreferrer">UCLA Student Media DevOps</a></li>
                         <li>and a bad joke enthusiast!</li>
                     </ul>
                     <br></br>

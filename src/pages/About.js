@@ -18,19 +18,20 @@ const About = () => {
                     <br></br>
                     <p>I'm a third-year student at <a href="https://www.ucla.edu/" target="_blank" rel="noopener noreferrer">UCLA</a> majoring in Computer Science and minoring in Public Affairs.</p>
                     <ul>
-                        <li>I'm an undergrad researcher at the Structures Computer Interaction Lab, where I 
-                            <a href="https://github.com/SidZal/SCI-Inertial-Navigation-Swarm" target="_blank" rel="noopener noreferrer"> work with 
-                            OpenCV, Arduino robots, and pyTorch</a> to research robot trajectory prediction.</li>
-                        <li>I serve as social director for <a href="https://upe.seas.ucla.edu/" target="_blank" rel="noopener noreferrer">Upsilon Pi Epsilon </a> 
+                        <li>I serve as social director for <a href="https://upe.seas.ucla.edu/" target="_blank" rel="noopener noreferrer">Upsilon Pi Epsilon</a>,
                         and organize socials and retreats for UCLA's computer science community.</li>
-                        <li>Additionally, I am a DevOps developer for <a href="https://apply.uclastudentmedia.com/" target="_blank" rel="noopener noreferrer">UCLA Student Media DevOps</a>, 
+                        <li>Additionally, I am a DevOps Lead for <a href="https://apply.uclastudentmedia.com/" target="_blank" rel="noopener noreferrer">UCLA Student Media DevOps</a>, 
                             where I contribute to developing the application website for aspiring UCLA Student Media members.</li>
                     </ul>
                     <br></br>
                     <p>In the past,</p>
                     <ul>
-                        <li>I interned at SLAC, where I <a href="https://youtu.be/h7TSGzvew_c?si=mz9CpaHf_yLgddXk&t=2094" target="_blank" rel="noopener noreferrer">
+                        <li>I interned at Amazon, where I enabled a new feature (<a href="https://www.help.cbp.gov/s/article/Article1843?language=en_US" target="_blank" rel="noopener noreferrer">immediate delivery</a>) and revamped existing workflow in the <a href="https://inlt.com/" target="_blank" rel="noopener noreferrer">INLT customs brokerage service</a>.</li>
+                        <li>I also interned at SLAC, where I <a href="https://youtu.be/h7TSGzvew_c?si=mz9CpaHf_yLgddXk&t=2094" target="_blank" rel="noopener noreferrer">
                         develped data processing and automation scripts</a> for x-ray crystallography research.</li>
+                        <li>I was an undergrad researcher at the Structures Computer Interaction Lab, where I 
+                            <a href="https://github.com/SidZal/SCI-Inertial-Navigation-Swarm" target="_blank" rel="noopener noreferrer"> worked with 
+                            OpenCV, Arduino robots, and pyTorch</a> to research robot trajectory prediction.</li>
                         <li>I was a CS Welcome Day speaker for incoming computer science students at UCLA, where I spoke about my experiences at school and during recruiting.</li>
                         <li>I learned video game development as part of ACM Studio and collaborated on a <a href="https://github.com/Anthonyled/Project-Rudd" target="_blank" rel="noopener noreferrer">
                         2D platforming game using Unity</a>.</li>
