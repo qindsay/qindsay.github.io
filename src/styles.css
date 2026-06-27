@@ -1,8 +1,9 @@
 /* ========================= Variables ========================= */
 :root {
-    --bg: #F4F1EB;
-    --nav-bg: rgba(232, 228, 218, 0.82);
-    --card-bg: #EDE9F5;
+    --bg: #F7F7F8;
+    --nav-bg: rgba(235, 232, 244, 0.88);
+    --card-bg: #EEEAF5;
+    --contact-bg: #EDECEA;
     --border: rgba(160, 170, 148, 0.4);
     --green: #3D8B5A;
     --purple: #6A4D99;
@@ -198,7 +199,7 @@ nav ul li:last-child a:hover {
         top: 68px;
         justify-content: flex-end;
         padding: 16px 7%;
-        background-color: rgba(232, 228, 218, 0.96);
+        background-color: rgba(235, 232, 244, 0.96);
         backdrop-filter: blur(20px);
         -webkit-backdrop-filter: blur(20px);
         border-bottom: 1px solid var(--border);
@@ -238,19 +239,26 @@ nav ul li:last-child a:hover {
 }
 
 /* ========================= Contact ========================= */
+.contact-footer {
+    margin-top: 5%;
+    border-top: 1px solid var(--border);
+}
+
+.contact-footer * {
+    background-color: transparent;
+}
+
 .contact {
     display: flex;
     flex-direction: row;
     width: 90%;
     margin: 0 5%;
-    margin-top: 3%;
     padding-top: 1%;
-    border-top: 1px solid var(--border);
     gap: 5%;
 }
 
 .contact h1 {
-    color: var(--purple);
+    color: var(--purple-mid);
     margin: 0;
     font-weight: 700;
     letter-spacing: 0.1em;
@@ -258,63 +266,62 @@ nav ul li:last-child a:hover {
     text-transform: uppercase;
 }
 
-.contact .flavor {
-    width: 50%;
-    padding: 2% 3%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: right;
-}
-
-.contact .flavor h2 {
-    font-size: 2vw;
-    margin-top: 12px;
-    color: var(--purple);
-    font-weight: 600;
-    letter-spacing: -0.02em;
-    text-align: right;
-}
 
 .contact .info {
-    width: 50%;
-    padding: 2% 3%;
+    width: 100%;
+    padding: 2% 0;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.contact .info h1 {
+    margin-top: 0;
+    font-size: 30px;
 }
 
 .contact .info .contactList {
-    padding-top: 16px;
     display: flex;
-    flex-direction: column;
-    gap: 16px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: center;
 }
 
-.contact .info .item {
+.contactCard {
     display: flex;
     align-items: center;
-    gap: 12px;
-}
-
-.contact .info .item img {
-    max-height: 20px;
-    height: 20px;
-    width: 20px;
-    background-color: transparent;
-    opacity: 0.65;
-}
-
-.contact .info .item a {
+    gap: 8px;
     color: var(--text-secondary);
+    text-decoration: none;
     font-weight: 400;
-    background-color: transparent;
+    font-size: 14px;
     transition: color 0.2s var(--ease);
+    border-bottom: 1px solid transparent;
+    padding-bottom: 1px;
 }
 
-.contact .info .item a:hover {
+.contactCard * {
+    background-color: transparent;
+}
+
+.contactCard img {
+    height: 16px;
+    width: 16px;
+    opacity: 0.55;
+    flex-shrink: 0;
+    transition: opacity 0.2s var(--ease);
+}
+
+.contactCard:hover {
     color: var(--purple);
+    border-bottom-color: var(--purple);
+}
+
+.contactCard:hover img {
+    opacity: 0.9;
 }
 
 @media (max-width: 800px) {
@@ -336,11 +343,10 @@ nav ul li:last-child a:hover {
         flex-direction: column;
         width: 100%;
         padding: 0;
-        align-items: flex-start;
     }
 
-    .contact .info .item {
-        padding: 0;
+    .contactCard {
+        font-size: 13px;
     }
 
     h3 {
